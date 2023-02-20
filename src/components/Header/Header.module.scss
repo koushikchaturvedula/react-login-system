@@ -1,0 +1,49 @@
+$white : #ffff;
+$primary: red;
+
+.header {
+  align-items: center;
+  background-color: $white !important;
+  min-height: 90px;
+
+  &.SmallHeader {
+    padding: 0px 16px !important;
+  }
+}
+
+.logoStyle {
+  img {
+    max-height: 2rem;
+  }
+}
+
+.bellIcon {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.userName {
+  font-size: 16px;
+  color: $primary;
+}
+
+.userType {
+  font-size: 12px;
+}
+
+
+
+.NavExtras {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+
+  &.hidden {
+    flex: 0;
+    overflow: hidden;
+
+    width: 0;
+  }
+}
