@@ -60,6 +60,8 @@ Import the data from the dump.sql file into your new database using the followin
 
 `psql -U [username] -d employee_management < path/to/dump.sql`
 
+You can use the predefined users to login to the project. Please find the login details below:
+
 ADMIN
 eamil: alicejohnson@example.com
 password: Qw1qw1
